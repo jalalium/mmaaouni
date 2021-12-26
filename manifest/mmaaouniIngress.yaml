@@ -16,5 +16,5 @@ spec:
             name: wil-nodeport
             port:
               number: 8888
-        path: /app
+        path: /
         pathType: Prefix
