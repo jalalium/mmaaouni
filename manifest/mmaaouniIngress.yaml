@@ -10,10 +10,10 @@ spec:
   rules:
   - http:
       paths:
-      - backend:
+      - path: /re
+        pathType: Prefix
+        backend:
           service:
             name: wil-nodeport
             port:
               number: 8888
-        path: /re
-        pathType: Prefix
